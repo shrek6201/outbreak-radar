@@ -13,7 +13,7 @@ from urllib.parse import quote, unquote
 # ─── Page config (must be first) ─────────────────────────────────────────────
 st.set_page_config(
     page_title="OutbreakRadar",
-    page_icon="🦠",
+    page_icon="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f9a0.png",
     layout="wide",
     initial_sidebar_state="expanded",
 )
