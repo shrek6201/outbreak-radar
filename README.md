@@ -18,8 +18,6 @@
 ### Live News Feed
 ![Live News Feed](outbreak-radar-feed.png)
 
----
-
 
 ---
 
