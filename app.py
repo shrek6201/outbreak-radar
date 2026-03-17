@@ -5,15 +5,51 @@ import requests
 import feedparser
 import re
 import os
+import base64
+from io import BytesIO
+from PIL import Image
 from datetime import datetime, timedelta, timezone
 from collections import Counter
 from time import mktime
 from urllib.parse import quote, unquote
 
+# ─── Favicon (embedded as base64 so HF Spaces CSP never blocks it) ───────────
+_FAVICON_B64 = (
+    "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"
+)
+_favicon_img = Image.open(BytesIO(base64.b64decode(_FAVICON_B64)))
+
 # ─── Page config (must be first) ─────────────────────────────────────────────
 st.set_page_config(
     page_title="OutbreakRadar",
-    page_icon="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f9a0.png",
+    page_icon=_favicon_img,
     layout="wide",
     initial_sidebar_state="expanded",
 )
