@@ -1,6 +1,6 @@
 # 🦠 Outbreak Radar
 
-> A real-time, dark-themed outbreak intelligence dashboard that aggregates live disease news from the WHO and NewsAPI, visualises global activity on an interactive choropleth world map, and lets you drill into country- and pathogen-level news feeds.
+> A real-time, outbreak intelligence dashboard that aggregates live disease news from the WHO and NewsAPI, visualises global activity on an interactive choropleth world map, and lets you drill into country and pathogen-level news feeds.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-HuggingFace%20Spaces-yellow?logo=huggingface)](https://1shreyas-outbreakradar.hf.space)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://python.org)
