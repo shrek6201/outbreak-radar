@@ -7,6 +7,20 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.55-red?logo=streamlit)](https://streamlit.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+
+---
+
+## Screenshots
+
+### Global Outbreak Map
+![Global Outbreak Map](outbreak-radar-map.png)
+
+### Live News Feed
+![Live News Feed](outbreak-radar-feed.png)
+
+---
+
+
 ---
 
 ## Features
