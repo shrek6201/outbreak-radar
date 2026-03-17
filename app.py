@@ -12,7 +12,7 @@ from urllib.parse import quote, unquote
 
 # ─── Page config (must be first) ─────────────────────────────────────────────
 st.set_page_config(
-    page_title="Global Disease Tracker",
+    page_title="OutbreakRadar",
     page_icon="🦠",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -838,7 +838,7 @@ def main() -> None:
     # ── Sidebar ────────────────────────────────────────────────────────────
     with st.sidebar:
         st.markdown(
-            '<div class="sidebar-title">Global<br>Disease<br>Tracker</div>'
+            '<div class="sidebar-title">Outbreak<br>Radar</div>'
             '<div class="sidebar-subtitle">// Outbreak Intelligence</div>',
             unsafe_allow_html=True,
         )

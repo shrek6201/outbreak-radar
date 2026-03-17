@@ -1,5 +1,5 @@
 ---
-title: Global Disease Tracker
+title: OutbreakRadar
 emoji: 🦠
 colorFrom: green
 colorTo: red
@@ -9,7 +9,7 @@ app_file: app.py
 pinned: false
 ---
 
-# 🦠 Global Disease Tracker
+# 🦠 OutbreakRadar
 
 A real-time, dark-themed outbreak intelligence dashboard that aggregates live disease news from the WHO and NewsAPI, visualises global activity on an interactive choropleth map, and lets you drill into country- and pathogen-level news feeds.
 
