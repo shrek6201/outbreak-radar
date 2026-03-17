@@ -1,14 +1,3 @@
----
-title: OutbreakRadar
-emoji: 🦠
-colorFrom: green
-colorTo: red
-sdk: streamlit
-sdk_version: 1.55.0
-app_file: app.py
-pinned: false
----
-
 # 🦠 OutbreakRadar
 
 > A real-time, dark-themed outbreak intelligence dashboard that aggregates live disease news from the WHO and NewsAPI, visualises global activity on an interactive choropleth world map, and lets you drill into country- and pathogen-level news feeds.
